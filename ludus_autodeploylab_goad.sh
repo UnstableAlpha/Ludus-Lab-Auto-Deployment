@@ -56,6 +56,15 @@ ludus:
     cpus: 2
     windows:
       sysprep: true
+  - vm_name: "{{ range_id }}-win10"
+    hostname: "{{ range_id }}-win10"
+    template: win10-21h2-x64-enterprise-template
+    vlan: 10
+    ip_last_octet: 98
+    ram_gb: 6
+    cpus: 4
+    windows:
+      sysprep: true
   - vm_name: "{{ range_id }}-kali"
     hostname: "{{ range_id }}-kali"
     template: kali-x64-desktop-template
