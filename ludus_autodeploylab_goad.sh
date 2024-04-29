@@ -16,7 +16,7 @@ ludus:
     template: win2019-server-x64-template
     vlan: 10
     ip_last_octet: 10
-    ram_gb: 4
+    ram_gb: 8
     cpus: 2
     windows:
       sysprep: true
@@ -25,7 +25,7 @@ ludus:
     template: win2019-server-x64-template
     vlan: 10
     ip_last_octet: 11
-    ram_gb: 4
+    ram_gb: 8
     cpus: 2
     windows:
       sysprep: true
