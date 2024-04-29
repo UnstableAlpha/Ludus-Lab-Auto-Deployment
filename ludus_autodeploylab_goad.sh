@@ -1,7 +1,10 @@
 #!/bin/bash
 
 # Install pre-req packages for fresh Ubuntu install prep
-sudo apt update && sudo apt install -y jq python3-pip 
+sudo apt update && sudo apt install -y jq python3-pip
+
+# WSL - export to PATH
+export PATH="/home/$USER/.local/bin:$PATH"
 
 # Summoning the Seven Kingdoms with GOAD (Game of Active Directory)
 
