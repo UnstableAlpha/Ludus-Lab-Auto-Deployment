@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Install pre-req packages for fresh Ubuntu install prep
+sudo apt update && sudo apt install -y jq python3-pip 
+
 # Summoning the Seven Kingdoms with GOAD (Game of Active Directory)
 
 # Creating goadconfig.yml file with noble house assignments
